@@ -1,0 +1,31 @@
+{
+  "name": "tropical-multiloja-api",
+  "version": "1.0.0",
+  "description": "API de Orçamentos - Tropical Multi Loja | Desenvolvido por Soul Plus",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "tropical",
+    "orcamento",
+    "api",
+    "soulplus"
+  ],
+  "author": "Soul Plus Digital",
+  "license": "PROPRIETARY",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pdfkit": "^0.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
